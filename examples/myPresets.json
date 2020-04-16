@@ -1,0 +1,45 @@
+{
+	"pattrstorage" : 	{
+		"name" : "myPresets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"Dial1" : [ 0 ],
+					"Slider1" : [ 0 ],
+					"gain" : [ 0 ],
+					"myFloat" : [ 0.0 ],
+					"myInt" : [ 0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"Dial1" : [ 104 ],
+					"Slider1" : [ 74 ],
+					"gain" : [ 112 ],
+					"myFloat" : [ 65.0 ],
+					"myInt" : [ 37 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"Dial1" : [ 104 ],
+					"Slider1" : [ 127 ],
+					"gain" : [ 157 ],
+					"myFloat" : [ -65.0 ],
+					"myInt" : [ -218 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
