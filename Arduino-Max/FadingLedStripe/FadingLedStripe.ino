@@ -32,36 +32,36 @@ void loop() {
 
   int aloitusArvo = 127;
 
-if(loopIndex>numberOfLoops){
+  if (loopIndex > numberOfLoops) {
 
-delay(downTime);
-  loopIndex++;
+    delay(downTime);
+    loopIndex++;
 
-} else {
-  
-  // fade in from min to max in increments of 5 points:
-  for (int fadeValue = aloitusArvo ; fadeValue <= 255; fadeValue += 5) {
-    // sets the value (range from 0 to 255):
-    analogWrite(ledPin, fadeValue);
-    // wait for 30 milliseconds to see the dimming effect
-    delay(10);
+  } else {
+
+    // fade in from min to max in increments of 5 points:
+    for (int fadeValue = aloitusArvo ; fadeValue <= 255; fadeValue += 5) {
+      // sets the value (range from 0 to 255):
+      analogWrite(ledPin, fadeValue);
+      // wait for 30 milliseconds to see the dimming effect
+      delay(10);
+    }
+
+    delay(20);
+
+    // fade out from max to min in increments of 5 points:
+    for (int fadeValue = 255 ; fadeValue >= aloitusArvo; fadeValue -= 5) {
+      // sets the value (range from 0 to 255):
+      analogWrite(ledPin, fadeValue);
+      // wait for 30 milliseconds to see the dimming effect
+      delay(10);
+    }
+
+    delay(300);
+    loopIndex++;
   }
-
-  delay(20);
-
-  // fade out from max to min in increments of 5 points:
-  for (int fadeValue = 255 ; fadeValue >= aloitusArvo; fadeValue -= 5) {
-    // sets the value (range from 0 to 255):
-    analogWrite(ledPin, fadeValue);
-    // wait for 30 milliseconds to see the dimming effect
-    delay(10);
+  if (loopIndex > numberOfLoops + 1) {
+    loopIndex = 0;
   }
-
-  delay(300);
-loopIndex++;
-}
-if(loopIndex>numberOfLoops+1){
-loopIndex=0;
-}
 
 }
