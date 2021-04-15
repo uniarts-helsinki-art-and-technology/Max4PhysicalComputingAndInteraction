@@ -69,14 +69,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.0, 67.0, 150.0, 20.0 ],
+					"patching_rect" : [ 359.0, 67.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 14,
-					"presentation_rect" : [ 5.25, 60.5, 18.0, 194.0 ],
-					"text" : "SPEAKERS LAYOUT"
+					"presentation_linecount" : 15,
+					"presentation_rect" : [ 5.25, 37.5, 18.0, 208.0 ],
+					"text" : "SPEAKERS\n LAYOUT"
 				}
 
 			}
