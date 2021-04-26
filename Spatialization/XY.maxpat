@@ -387,8 +387,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.0, 200.0, 62.0, 20.0 ],
-					"text" : "r #-node-xy"
+					"patching_rect" : [ 76.0, 200.0, 68.0, 20.0 ],
+					"text" : "r #0-node-xy"
 				}
 
 			}
@@ -458,12 +458,13 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
 					"id" : "obj-86",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 963.0, 344.0, 53.0, 20.0 ],
-					"text" : "0.5 0.5"
+					"patching_rect" : [ 963.0, 344.0, 53.0, 31.0 ],
+					"text" : "0.771242 0.264706"
 				}
 
 			}
@@ -476,8 +477,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 942.0, 298.0, 62.0, 20.0 ],
-					"text" : "r #-node-xy"
+					"patching_rect" : [ 942.0, 298.0, 68.0, 20.0 ],
+					"text" : "r #0-node-xy"
 				}
 
 			}
@@ -489,8 +490,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 933.0, 251.0, 64.0, 20.0 ],
-					"text" : "s #-node-xy"
+					"patching_rect" : [ 933.0, 251.0, 70.0, 20.0 ],
+					"text" : "s #0-node-xy"
 				}
 
 			}
@@ -611,9 +612,9 @@
 					"maxclass" : "live.toolbar",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 584.0, 265.0, 50.0 ],
+					"patching_rect" : [ 533.0, 637.0, 265.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 584.0, 265.0, 50.0 ]
+					"presentation_rect" : [ 533.0, 637.0, 265.0, 50.0 ]
 				}
 
 			}
