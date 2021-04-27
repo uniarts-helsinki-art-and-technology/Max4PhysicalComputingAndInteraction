@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 161.0, 79.0, 1056.0, 714.0 ],
+		"rect" : [ 161.0, 79.0, 1234.0, 714.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 920.0, 236.0, 138.0, 22.0 ],
+					"text" : "udpsend 127.0.0.1 8900"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-37",
 					"maxclass" : "newobj",
@@ -81,7 +92,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 804.0, 245.0, 52.0, 22.0 ],
+					"patching_rect" : [ 804.0, 177.5, 52.0, 22.0 ],
 					"text" : "r motion"
 				}
 
@@ -507,7 +518,7 @@
 									"bgfillcolor_type" : "color",
 									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"id" : "obj-149",
-									"items" : [ "Bluetooth-Incoming-Port", ",", "BITalino-01-25-DevB", ",", "PioneerX-CM56-SerialPort", ",", "usbmodem1431420" ],
+									"items" : [ "PioneerX-CM56-SerialPort", ",", "Bluetooth-Incoming-Port", ",", "BITalino-01-25-DevB", ",", "usbmodem14314101" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1785,6 +1796,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
+					"order" : 1,
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"order" : 0,
 					"source" : [ "obj-33", 0 ]
 				}
 
