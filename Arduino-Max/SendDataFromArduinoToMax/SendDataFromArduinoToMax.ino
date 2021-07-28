@@ -40,5 +40,5 @@ void loop() {
     Serial.println(1);
   }
 
-  delay(1);        // delay in between reads for stability
+  delay(10);        // delay in between reads for stability
 }
