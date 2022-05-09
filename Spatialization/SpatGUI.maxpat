@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 10,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 202.0, 79.0, 1056.0, 714.0 ],
+		"rect" : [ 202.0, 79.0, 871.0, 714.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 335.0, 234.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 335.0, 234.0, 150.0, 20.0 ],
+					"text" : "automation example"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -48,7 +61,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 470.0, 388.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 470.0, 388.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 299.0, 234.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -353,13 +366,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-13",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "demosound.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 42.0, 38.0, 225.0, 95.0 ],
+					"patching_rect" : [ 39.0, 615.0, 225.0, 95.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 520.25, 110.0, 225.0, 95.0 ],
 					"viewvisibility" : 1
@@ -375,13 +389,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-15",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "XY.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 42.0, 135.0, 333.0, 167.0 ],
+					"patching_rect" : [ 27.0, 600.0, 333.0, 167.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 374.25, 451.0, 330.0, 173.0 ],
 					"varname" : "source_1[2]",
@@ -399,13 +414,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-16",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "demosound.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 27.0, 23.0, 225.0, 95.0 ],
+					"patching_rect" : [ 31.0, 461.0, 225.0, 95.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 289.25, 110.0, 225.0, 95.0 ],
 					"viewvisibility" : 1
@@ -421,13 +437,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-17",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "XY.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 27.0, 120.0, 333.0, 167.0 ],
+					"patching_rect" : [ 27.0, 427.0, 333.0, 167.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.25, 451.0, 330.0, 173.0 ],
 					"varname" : "source_1[3]",
@@ -445,13 +462,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-10",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "demosound.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 27.0, 23.0, 225.0, 95.0 ],
+					"patching_rect" : [ 39.0, 305.0, 225.0, 95.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 520.25, 6.0, 225.0, 95.0 ],
 					"viewvisibility" : 1
@@ -467,13 +485,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-11",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "XY.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 27.0, 120.0, 333.0, 167.0 ],
+					"patching_rect" : [ 27.0, 269.0, 333.0, 167.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 374.25, 269.0, 330.0, 173.0 ],
 					"varname" : "source_1[1]",
@@ -596,8 +615,8 @@
 					"presentation_rect" : [ 25.25, 16.0, 251.0, 251.0 ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "NodesDrawer[1]",
-					"xplace" : [ 0.323223, 0.65359477124183, 0.803921568627451, 0.287581699346405 ],
-					"yplace" : [ 0.323223, 0.359477124183007, 0.745098039215686, 0.758169934640523 ]
+					"xplace" : [ 0.23804780876494, 0.77191235059761, 0.803921568627451, 0.287581699346405 ],
+					"yplace" : [ 0.239043824701195, 0.258964143426295, 0.745098039215686, 0.758169934640523 ]
 				}
 
 			}
@@ -611,13 +630,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-36",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "demosound.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 12.0, 8.0, 225.0, 95.0 ],
+					"patching_rect" : [ 12.0, 116.0, 225.0, 95.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 289.25, 6.0, 225.0, 95.0 ],
 					"viewvisibility" : 1
@@ -631,7 +651,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.0, 501.0, 75.0, 22.0 ],
+					"patching_rect" : [ 835.0, 63.0, 75.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -643,7 +663,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 113.0, 539.0, 44.0, 44.0 ],
+					"patching_rect" : [ 835.0, 101.0, 44.0, 44.0 ],
 					"prototypename" : "helpfile"
 				}
 
@@ -657,6 +677,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "XY.maxpat",
 					"numinlets" : 1,
@@ -752,15 +773,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
-					"order" : 0,
-					"source" : [ "obj-53", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"order" : 1,
 					"source" : [ "obj-53", 0 ]
 				}
 
