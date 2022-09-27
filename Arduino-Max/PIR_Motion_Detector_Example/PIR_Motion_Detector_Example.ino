@@ -26,7 +26,7 @@ void setup()
   Serial.begin(9600);
   // The PIR sensor's output signal is an open-collector, 
   // so a pull-up resistor is required:
-  pinMode(MOTION_PIN, INPUT_PULLUP);
+  pinMode(MOTION_PIN, OUTPUT);
   pinMode(LED_PIN, OUTPUT);
 }
 
