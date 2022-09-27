@@ -1,4 +1,6 @@
 # Max4PhysicalComputingAndInteraction
  material and examples for the course
 
- forked from art and technology github
+27.09.2022 merged in Uniarts GitHub
+
+2020 forked from art and technology github
